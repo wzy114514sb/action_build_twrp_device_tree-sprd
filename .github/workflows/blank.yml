@@ -3,7 +3,7 @@ name: Generate TWRP Device Tree (SPRD)
 on:
   workflow_dispatch:
     inputs:
-      IMG_URL:
+      IMG_URL:https://pdf2.webgetstore.com/2026/09/02/5d991e2ab0a49b4e738e572772acc27d.img?sg=5671239ee8365d82faaa4171247af834&e=6a98456e&fileName=vendor_boot.img&fi=314458108
         description: 'Direct URL to a stock vendor_boot, boot, or recovery image'
         required: true
       MANUFACTURER:
